@@ -1,5 +1,4 @@
 function alphabetPosition(text) {
-  
     const alpha = " abcdefghijklmnopqrstuvwxyz";
     const alphaSet = new Set(alpha.split("").slice(1));
     const textL = text.toLowerCase();

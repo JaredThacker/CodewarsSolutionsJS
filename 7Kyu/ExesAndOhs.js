@@ -6,6 +6,5 @@ function XO(str) {
         occurrences[str[i]] += 1;
       }
     }
-  
     return new Set([...Object.values(occurrences)]).size === 1;
 }

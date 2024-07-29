@@ -9,5 +9,4 @@ const binaryArrayToNumber = arr => {
       }
     }
     return sum;
-  
   }
